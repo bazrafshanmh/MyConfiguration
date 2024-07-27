@@ -1,0 +1,22 @@
+{
+  "languageserver": {
+    "python": {
+      "command": "pyright-langserver",
+      "args": ["--stdio"],
+      "filetypes": ["python"],
+      "settings": {
+        "python": {
+          "analysis": {
+            "autoSearchPaths": true,
+            "useLibraryCodeForTypes": true
+          }
+        }
+      }
+    }
+  ,"xml": {
+      "command": "xmlls",
+      "filetypes": ["xml"],
+      "settings": {}
+    }
+  }
+}
